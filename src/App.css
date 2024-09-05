@@ -4,7 +4,12 @@
     --colorBlack: rgb(67, 67, 67);
     --fontFamily:"Nunito Sans", sans-serif;
 }
-
+.bg-red {
+    transition: 0.9s ease-in-out !important;
+    border-bottom: 2px solid var(--colorBrown);
+    /* background-color:var(--colorSkin); */
+    /* color: white !important; Optional: To make the text white when the background is red */
+  }
 .catsel{
 
     padding: 5px;
