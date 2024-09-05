@@ -1,0 +1,133 @@
+:root{
+    --colorSkin:#A98D75;
+    --colorBrown:#7C5735;
+    --colorBlack: rgb(67, 67, 67);
+    --fontFamily:"Nunito Sans", sans-serif;
+}
+
+.catsel{
+
+    padding: 5px;
+    background-color: var(--colorSkin);
+}
+.catsel>div>select{
+    background-color: white;
+}
+.catsel>div>input{
+    padding: 5px 10px; 
+border: none;
+
+border-radius: 30px;
+}
+body{
+
+    color: var(--colorBlack)  !important;
+    text-transform: capitalize;
+    font-family: var(--fontFamily) !important;
+}
+button{
+    font-family: var(--fontFamily) !important;
+}
+.navbar {
+
+    background-color: rgb(231, 231, 231);
+}
+.ab-cont{
+    height: 100vh;
+}
+footer{
+  
+    bottom: 0px !important;
+}
+.navbar-nav>li>.nav-link{
+    
+    color: var(--colorBlack);
+} 
+.div1>span,.div1>span>a{
+    color: var(--colorBrown);
+    font-size: 12px;
+}
+.img1{
+    background-size: cover;
+    object-fit: cover;
+    height: 400px;
+}
+.span1{
+    font-family: sans-serif;
+    color: white;
+    padding: 0px 2px;
+    border-radius: 4px;
+    background-color: var(--colorSkin);
+}
+.btn1{
+  /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(50, 78, 100, 0.15) 0px 2px 6px 2px;
+
+    font-weight: 800;
+
+    color: white;
+    background-color: var(--colorSkin);
+padding: 5px 46px;
+border-radius: 4px;
+transition: 0.5s ease-in-out;
+}
+.btn1:hover{
+transform: scale(1.1);
+    color:var(--colorSkin);
+    border: 1px solid var(--colorSkin);
+    background-color: transparent;
+}
+.topbtn{
+    color: white;
+    right: 10px;
+    background-color: var(--colorSkin);
+}
+.topbtn{
+    z-index: 2 !important;
+    position: fixed;
+    padding: 10px;
+    bottom: 0px;
+    margin:10px 0px;
+    border: none;
+    color: white ;
+    border-radius: 30px;
+}
+.topbtn:hover{
+    border: 1px solid var(--colorSkin);
+    background-color: transparent;
+}
+.topbtn:hover .topbtn>a>i{
+    color: var(--colorSkin) !important;
+
+}
+.topbtn>a{
+    color: white ;
+}
+.card>img{
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+}
+.card-body{
+    font-family: var(--fontFamily);
+}
+.card{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 5px;
+    background-color: rgb(234, 233, 233);
+    color: var(--colorBlack);
+   
+  border: 1px solid rgb(227, 227, 227);
+}
+.card>img{
+    border-radius: 100px;
+}
+.imagePro{ 
+    background-color: rgb(234, 233, 233);
+    object-fit: cover;
+    background-size: cover;
+    height: 400px;
+padding: 30px;
+}
