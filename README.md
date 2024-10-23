@@ -1,3 +1,6 @@
+## ECOMMECE WEBSITE
+
+![image](https://github.com/user-attachments/assets/1898d0eb-db0c-403b-bca8-ae53aa9e5722)
 
 For any inquiries or feedback, feel free to connect with me on my social media profiles or send me a message through the contact form available on the site.
 ## Screenshots 📸
